@@ -25,18 +25,28 @@
 ```python
 class SaiKrishna:
     def __init__(self):
-        self.name        = "Sai Krishna B"
-        self.role        = "Python Developer & ML Engineer"
-        self.location    = "India 🇮🇳"
-        self.focus       = ["Machine Learning", "Cybersecurity", "Open Source"]
-        self.gsoc        = "GSoC 2026 Candidate — Noise/Relevance Filtering"
-        self.owasp       = "Passionate about OWASP projects & secure-by-design systems"
-        self.currently   = "Building ML pipelines & hunting vulnerabilities"
-        self.ask_me      = ["Python", "ML Models", "Security Audits", "Open Source"]
-        self.fun_fact    = "I find bugs in code AND in security systems 🐛🔐"
+        self.name         = "Sai Krishna B"
+        self.pronouns     = "he / him"
+        self.role         = ["Python Developer", "ML Engineer", "Security Researcher"]
+        self.location     = "India 🇮🇳"
+        self.focus        = ["Machine Learning", "Cybersecurity", "Open Source"]
+        self.gsoc_2026    = "Noise/Relevance Filtering — GSoC Candidate 🎯"
+        self.owasp        = "Active contributor to OWASP security projects 🛡️"
+        self.currently    = "Building ML pipelines & contributing to open source"
+        self.learning     = ["LLMs & Prompt Engineering", "MLOps", "Advanced Pen Testing"]
+        self.ask_me       = ["Python", "ML Models", "Security Audits", "GSoC 2026"]
+        self.fun_fact     = "I hunt bugs in code by day & vulnerabilities by night 🐛🔐"
+
+    def get_skills(self):
+        return {
+            "languages"  : ["Python 🐍", "JavaScript", "Bash", "SQL"],
+            "ml_stack"   : ["TensorFlow", "PyTorch", "Scikit-Learn", "Pandas"],
+            "security"   : ["OWASP", "Burp Suite", "Kali Linux", "Wireshark"],
+            "devops"     : ["Git", "Docker", "Linux", "GitHub Actions"],
+        }
 
     def __repr__(self):
-        return f"Developer(name={self.name}, passion='Building things that matter')"
+        return "Developer(passion='Building things that matter 🚀', open_to='Collaborations & Opportunities')"
 ```
 
 ---
